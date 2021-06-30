@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <title>AXEL: Shopping Site</title>
+    <link rel="stylesheet" href="style-index.css">
+  </head>
+  <body>
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-lg navbar-light nav-style fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="images\ALEX logo.jpg" alt="axel" width="125px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse topnav" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="account.html"><i class="fa fa-user-plus" aria-hidden="true"></i>/<i class="fa fa-sign-in" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="user-account.html"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item cart">
+              <a class="nav-link" href="cart.html">
+              <i class=" fa fa-shopping-cart"></i><span>0</span></a>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+    <!-- END OF NAV BAR -->
+
+
+    <!-- SINGLE PRODUCT DETAIL -->
+    <section class="small-container single-product">
+      <div class="row">
+        <div class="col-2">
+          <img src="images\love-in-the-city.jpg" width="100%" alt="love in the city" id="productImg">
+          <div class="small-img-row">
+            <div class="small-img-col">
+              <img src="images\love-in-the-city.jpg" class="small-img">
+            </div>
+            <div class="small-img-col">
+              <img src="images\love-in-the-city-back.jpg" class="small-img">
+            </div>
+            <div class="small-img-col">
+              <img src="images\you-know-its-love.jpg" class="small-img">
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <h1>Love in the City</h1>
+          <small style="color: white;">By Jen Morris</small>
+          <h4>&#x20B9; 1503</h4>
+          <select>
+            <option>Language</option>
+            <option>English</option>
+            <option>हिन्दी</option>
+            <option>Español</option>
+            <option>한국어</option>
+          </select>
+          <input type="number" value="1">
+          <a href="" class="btn">Add to Cart</a>
+          <h3>Product Details -</h3>
+          <p>Find out what happens when a Kiwi girl ventures into the big city in this sexy and funny slow-burn romantic comedy about going after your dreams.</p>
+           <p> Here's what you can expect from Love in the City:
+            <ul type="none">
+                <li>♥ Slow burn, sexy romantic comedy</li>
+                <li>♥ Kiwi girl moving to the big city</li>
+                <li>♥ Bearded single dad</li>
+                <li>♥ New York City vibes</li>
+                <li>♥ Fun and endearing secondary characters</li>
+                <li>♥ Gorgeous happily ever after</li>
+            </ul></p>
+        </div>
+      </div>
+    </section>
+    <!-- SINGLE PRODUCT DETAIL END -->
+
+
+
+    <!-- SIMILAR PRODUCT -->
+    <div class="small-container">
+      <div class="row row-2">
+        <h2>Related Products</h2>
+        <p>View More</p>
+      </div>
+    </div>
+  <section class="small-container">
+    <div class="row">
+      <div class="col-4">
+        <img src="images\behind-you.jpg" alt="">
+        <h4>I'm Behind You</h4>
+        <div class="rating">
+          &#9733;&#9733;&#9733;&#9734;&#9734;
+        </div>
+        <p>&#x20B9; 1074</p>
+      </div>
+      <div class="col-4">
+        <img src="images\girl-on-the-train.jpg" alt="">
+        <h4>The Girl on the Train</h4>
+        <div class="rating">
+          &#9733;&#9733;&#9733;&#9733;&#9734;
+        </div>
+        <p>&#x20B9; 449</p>
+      </div>
+      <div class="col-4">
+        <img src="images\ikigai.jpg" alt="">
+        <h4>Ikigai</h4>
+        <div class="rating">
+          &#9733;&#9733;&#9733;&#9733;&#9733;
+        </div>
+        <p>&#x20B9; 339</p>
+      </div>
+    </div>
+  </section>
+  <!-- SIMILAR PRODUCT END -->
+
+  
+  <!-- FOOTER -->
+  <section class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1" id="about">
+              <h3>Download Our App</h3>
+              <p>Download app for Android and ios mobile phone.</p>
+              <div class="app-logo">
+                <img src="images\play-store.png" alt="play store">
+                <img src="images\app-store.png" alt="app store">
+              </div>
+            </div>
+            <div class="footer-col-2">
+              <img src="images\ALEX logo.jpg" alt="logo">
+              <p>We believe that "A writter only begins a book. A reader finishes it." Therefore we provide with best books to complete your day.</p>
+            </div>
+            <div class="footer-col-3">
+              <h3>Useful links</h3>
+              <ul>
+                <li>Coupons</li>
+                <li>Blog post</li>
+                <li>Return Policy</li>
+                <li>Join Affiliate</li>
+              </ul>
+            </div>
+            <div class="footer-col-4">
+              <h3 id="contact">Follow us</h3>
+              <ul>
+                <li>Facebook</li>
+                <li>Twiiter</li>
+                <li>Instagram</li>
+                <li>Youtube</li>
+              </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2021 - AXEL: Shopping Site</p>
+    </div>
+  </section>
+  <!-- FOOTER END -->
+  
+  <!-- JS FOR PRODUCT GALLERY -->
+  <script>
+    var productImg = document.getElementById("productImg");
+    var smallImg = document.getElementsByClassName("small-img");
+    smallImg[0].onclick = function(){
+      productImg.src = smallImg[0].src;
+    }
+    smallImg[1].onclick = function(){
+      productImg.src = smallImg[1].src;
+    }
+    smallImg[2].onclick = function(){
+      productImg.src = smallImg[2].src;
+    }
+
+  </script>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
